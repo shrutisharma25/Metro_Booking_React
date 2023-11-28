@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/MetroBookingApp/static/css/main.fbfed7af.css",
-    "main.js": "/MetroBookingApp/static/js/main.d96dd387.js",
+    "main.js": "/MetroBookingApp/static/js/main.c4268e3a.js",
     "static/js/787.e0bc77bc.chunk.js": "/MetroBookingApp/static/js/787.e0bc77bc.chunk.js",
     "index.html": "/MetroBookingApp/index.html",
     "main.fbfed7af.css.map": "/MetroBookingApp/static/css/main.fbfed7af.css.map",
-    "main.d96dd387.js.map": "/MetroBookingApp/static/js/main.d96dd387.js.map",
+    "main.c4268e3a.js.map": "/MetroBookingApp/static/js/main.c4268e3a.js.map",
     "787.e0bc77bc.chunk.js.map": "/MetroBookingApp/static/js/787.e0bc77bc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fbfed7af.css",
-    "static/js/main.d96dd387.js"
+    "static/js/main.c4268e3a.js"
   ]
 }
