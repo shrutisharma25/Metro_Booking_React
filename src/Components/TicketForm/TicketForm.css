@@ -1,0 +1,63 @@
+/* TicketForm.css */
+.ticket-form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .title {
+    color: #333;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .buy-ticket-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buy-ticket-button:hover {
+    background-color: #45a049;
+  }
+  
+  .ticket-id-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .ticket-id-container h3 {
+    color: #333;
+  }
+  
+  .ticket-id-container p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4caf50;
+  }
+  
