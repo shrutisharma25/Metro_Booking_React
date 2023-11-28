@@ -10,20 +10,17 @@ const TicketForm = () => {
 
   useEffect(() => {
     // Load stations from the JSON file when the component mounts
-    axios.get('https://shrutisharma25.github.io/Table__API/stations.json')
+    axios.get('https://shrutisharma25.github.io/MetroBookingApp/stations.json')
       .then(response => setStations(response.data.stations))
       .catch(error => console.error('Error fetching stations:', error));
   }, []);
 
   const handleBuyTicket = () => {
-    // Implement ticket generation logic here
     const generatedTicketId = generateTicketId();
     setTicketId(generatedTicketId);
   };
 
   const generateTicketId = () => {
-    // Implement actual logic to generate a unique ticket ID
-    // For simplicity, using a random number here
     return Math.floor(Math.random() * 1000000).toString();
   };
 
