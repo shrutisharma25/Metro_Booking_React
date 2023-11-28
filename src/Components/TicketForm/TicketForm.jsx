@@ -10,7 +10,7 @@ const TicketForm = () => {
 
   useEffect(() => {
     // Load stations from the JSON file when the component mounts
-    axios.get('https://shrutisharma25.github.io/MetroBookingApp/stations.json')
+    axios.get('https://shrutisharma25.github.io/Table__API/stations.json')
       .then(response => setStations(response.data.stations))
       .catch(error => console.error('Error fetching stations:', error));
   }, []);
