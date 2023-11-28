@@ -5,11 +5,7 @@ import TicketForm from './Components/TicketForm/TicketForm';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route path='/MetroBookingApp' element={<TicketForm />} />
-        </Routes>
-      </BrowserRouter>
+      <TicketForm />
     </div>
     
   );
